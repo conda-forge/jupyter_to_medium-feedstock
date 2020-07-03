@@ -1,5 +1,5 @@
 {% set name = "jupyter_to_medium" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0ef38848b9d4d9bca66b10fe54892cd0af6465409eea958d9717ce26a905e31f
+  sha256: e3a7aa62cf49d88c3ac0bf7531c6e80ddec90e055ecf077b1b5f218bb7d4b4ab
 
 build:
   number: 0
@@ -22,7 +22,10 @@ requirements:
     - pip
     - python >=3.6
   run:
+    - beautifulsoup4
+    - matplotlib-base >=3.1
     - nbconvert
+    - numpy
     - python >=3.6
     - requests
 
