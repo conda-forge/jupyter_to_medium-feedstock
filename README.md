@@ -5,7 +5,7 @@ Home: https://dexplo.org/jupyter_to_medium
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Publish a Jupyter Notebook as a Medium blogpost
 
