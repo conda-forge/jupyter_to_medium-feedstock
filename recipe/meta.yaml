@@ -1,5 +1,5 @@
 {% set name = "jupyter_to_medium" %}
-{% set version = "0.2.3" %}
+{% set version = "0.2.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9063a948ee255a11614474b6e4fd14b27a948302897b5716eef5bff4c71b5d53
+  sha256: 9a763ead5466974e04323246a3d9a299d73484a2365aa5feb279332d581a7fca
 
 build:
   number: 0
